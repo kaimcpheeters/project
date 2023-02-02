@@ -1,0 +1,7 @@
+requests>=2.28.1,<3.0.0
+Django>=3.2.14,<3.3.0
+dj-database-url>=1.0.0,<1.1.0
+psycopg2-binary>=2.9.3,<2.10.0 
+gunicorn>=20.1.0,<21.0.0
+whitenoise>=6.2.0,<6.3.0
+django-alive>=1.2.1,<1.3.0

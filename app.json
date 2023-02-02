@@ -1,0 +1,13 @@
+{
+    "environments": {
+      "test": {
+        "env": {
+          "SECRET_KEY": "not_secret",
+          "DATABASE_URL": "sqlite:////workspace/db.sqlite3"
+        },
+        "scripts": {
+          "test": "python manage.py test --noinput"
+        }
+      }
+    }
+  }
