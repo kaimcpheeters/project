@@ -16,8 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+from app import views
+
+def index(request):
+    return "Hello World"
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.index, name='index'),
     path('-/', include('django_alive.urls')),
 
 ]
